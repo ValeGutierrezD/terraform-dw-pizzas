@@ -1,0 +1,39 @@
+{
+	"name": "ds_tbl_ordenes",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sql_db_pizzas_sales",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "DB"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "order_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "pizza_id",
+				"type": "varchar"
+			},
+			{
+				"name": "cantidad",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "tbl_ordenes"
+		}
+	}
+}
