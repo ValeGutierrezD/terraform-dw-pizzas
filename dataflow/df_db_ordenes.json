@@ -52,6 +52,7 @@
 				"     skipDuplicateMapOutputs: true,",
 				"     errorHandlingOption: 'stopOnFirstError',",
 				"     mapColumn(",
+				"          id = order_details_id,",
 				"          order_id,",
 				"          pizza_id,",
 				"          cantidad = quantity",
