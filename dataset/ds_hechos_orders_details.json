@@ -1,0 +1,39 @@
+{
+	"name": "ds_hechos_orders_details",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sql_dw_pizzas_sales",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "DW"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "order_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "pizza_id",
+				"type": "varchar"
+			},
+			{
+				"name": "quantity",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "hechos_detail_orders"
+		}
+	}
+}
