@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-ucb-sisinfo-12371724"
+		},
+		"ls_sa_pizzas_connectionString": {
+			"value": ""
+		},
+		"ls_sql_db_pizzas_sales_password": {
+			"value": ""
+		},
+		"ls_sql_dw_pizzas_sales_password": {
+			"value": ""
+		},
+		"ls_sql_db_pizzas_sales_properties_typeProperties_server": {
+			"value": "sql-ucb-sisinfo-12371724.database.windows.net"
+		},
+		"ls_sql_db_pizzas_sales_properties_typeProperties_database": {
+			"value": "db_pizzas_sales"
+		},
+		"ls_sql_db_pizzas_sales_properties_typeProperties_userName": {
+			"value": "valeria"
+		},
+		"ls_sql_dw_pizzas_sales_properties_typeProperties_server": {
+			"value": "sql-ucb-sisinfo-12371724.database.windows.net"
+		},
+		"ls_sql_dw_pizzas_sales_properties_typeProperties_database": {
+			"value": "dw_pizzas_sales"
+		},
+		"ls_sql_dw_pizzas_sales_properties_typeProperties_userName": {
+			"value": "valeria"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
